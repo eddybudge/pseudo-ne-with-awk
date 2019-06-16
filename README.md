@@ -1,2 +1,4 @@
 # pseudo-ne-with-awk
-A rudimentary named entity recognition with awk and combinations of correlated NEs.
+A rudimentary named entity recognition with awk and combinations of correlated NEs. It's a part of our (KaiserSource's and mine) "homework assignment" at university - that is SNA of NEs extracted from news articles about the italian government (title-abstract2.csv). The execution of files was automitized by KaiserSource - see script.sh. This pre-processing has as its objective the retrieval of all of couples of names mentioned in the same article. These couples of correlated names were employed then as arches of the "social graph" in Gephi .
+
+The structure of the first file, filter.awk, was mostly suggested to KaiserSource on StackOverflow - see https://stackoverflow.com/questions/56583235/remove-the-first-capitalized-word-after-a-period/56583628?noredirect=1#comment99749372_56583628, by https://stackoverflow.com/users/1745001/ed-morton - which helped us with AWK programming language.
